@@ -1,0 +1,27 @@
+dest: web # 生成文件目录
+site_url: /
+site_name: py-blog
+site_icon:
+lang: zh-CN
+author: rdpstudio
+theme: material
+article_address: origin # (number|pinyin|origin)
+
+# index
+page_articles: 10
+preview_len: 150
+
+rss: atom # atom|rss
+sitemap: True
+
+baidu_push:
+  enable: False
+  url: http://data.zz.baidu.com/urls?site=https://blog.example.com&token=**************** #百度推送接口调用地址
+
+repo:
+  - git@github.com:example/example.github.io.git
+
+server: # 本地预览服务器配置
+  port: 3399 # 端口
+  watch_interval: 2 # 每间隔多少秒重新读取目录
+
