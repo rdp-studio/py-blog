@@ -15,19 +15,19 @@ comment:
   enable: False
   valine:
     enable: True
-    appid: NLh0fhLRvD8gOWEC3vtOIRx5-gzGzoHsz
-    appkey: DSwqdjPFKAnO4CFMQypfkcB9
+    appid: NLh0fhL***************-gzGzoHsz
+    appkey: DSwqdjP**********pfkcB9
     placeholder: 说几句嘛qwq
   gitalk:
     enable: True
-    clientID: 054902ee1548e6fe427e
-    clientSecret: b31fac2b407311ca7e6673ab84727ae9562c69ba
+    clientID: 0549**********fe427e
+    clientSecret: b31*********************************2c69ba
     repo: example.github.io
     owner: example
     admin: example
     distractionFreeMode: 'false'
 
-pjax: False # enable pjax
+pjax: True # enable pjax
 
 appbar:
   pages:
@@ -39,7 +39,7 @@ appbar:
 
 head_card:
   enable: True
-  img: https://cdn.jsdelivr.net/gh/zcmimi/cdn@master/img/1.webp
+  img: https://qiantigers.coding.net/p/pic/d/pic/git/raw/master/2020/9/16/20200916213732.jpg
   logo: https://cdn.jsdelivr.net/gh/zcmimi/cdn@master/img/avatar_2.webp
   text: material theme for py-blog
   introduction: a theme with material-design
