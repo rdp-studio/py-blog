@@ -2,26 +2,26 @@ avatar: https://cdn.jsdelivr.net/gh/zcmimi/cdn@master/img/avatar_2.webp
 assets_rt: # https://cdn.jsdelivr.net/gh/zcmimi/cdn@master/material/assets
   # 如果有cdn提高assets文件夹的加载速度,请填入地址
   # 否则留空
+theme: clean # (beauty|clean)
 
 randomimg:
-  enable: false
   type: folder # (folder|list)
   path: https://cdn.jsdelivr.net/gh/zcmimi/cdn@master/img/
   cnt: 36
   suf: webp
   list: # urls
 
-comment: 
+comment:
   enable: False
   valine:
     enable: True
-    appid: NLh0fhLRv**********OIRx5-gzGzoHsz 
-    appkey: DSwqdjPF**********pfkcB9
+    appid: NLh0fhLRvD8gOWEC3vtOIRx5-gzGzoHsz
+    appkey: DSwqdjPFKAnO4CFMQypfkcB9
     placeholder: 说几句嘛qwq
   gitalk:
-    enable: False
-    clientID: 05490***********e427e
-    clientSecret: b***********11ca7e6673ab84727ae9562c69ba
+    enable: True
+    clientID: 054902ee1548e6fe427e
+    clientSecret: b31fac2b407311ca7e6673ab84727ae9562c69ba
     repo: example.github.io
     owner: example
     admin: example
@@ -41,8 +41,8 @@ head_card:
   enable: True
   img: https://cdn.jsdelivr.net/gh/zcmimi/cdn@master/img/1.webp
   logo: https://cdn.jsdelivr.net/gh/zcmimi/cdn@master/img/avatar_2.webp
-  text: Material
-  introduction: A theme for py-blog with material-design by RDPStudio
+  text: material theme for py-blog
+  introduction: a theme with material-design
   pages:
     标签云: /tags/
     分类: /categories/
@@ -53,12 +53,12 @@ head_card:
 footer:
   enable: True
   site_create_date: 2019
-  site_till_date: 2020
+  site_till_date: 2021
   icons:
-    github: https://github.com/rdp-studio/py-blog/
-    bilibili: https://space.bilibili.com/392383363
+    github: https://github.com/example/
+    bilibili: https://space.bilibili.com/
     zhihu: https://www.zhihu.com/
-    twitter: https://twitter.com/
+    twitter: https://twitter.com/example
   lastbuild: True
 
 drawer:
@@ -107,31 +107,31 @@ drawer:
       color: black
   Catch me:
   - content: 给我写信
-    url: mailto:admin@rdpstudio.top
+    url: mailto:example@example.com
     icon:
       typ: mdui
       data: email
       color: dodgerblue
   - content: 电报
-    url: https://t.me/
+    url: https://t.me/example/
     icon:
       typ: mqii
       data: telegram
       color: '#66ccff'
   - content: 推特
-    url: https://twitter.com/
+    url: https://twitter.com/example/
     icon:
       typ: mqii
       data: twitter
       color: rgba(29,161,242,1.00)
   - content: 哔哩哔哩
-    url: https://space.bilibili.com/392383363
+    url: https://space.bilibili.com/
     icon:
       typ: mqii
       data: bilibili
       color: '#F06292'
   - content: 网易云音乐
-    url: https://music.163.com/
+    url: https://music.163.com/user/home/?id=
     icon:
       typ: mqii
       data: netease-cloud-music
@@ -144,14 +144,14 @@ drawer:
       color: '#0084ff'
 
   - content: Github
-    url: https://github.com/rdp-studio/py-blog/
+    url: https://github.com/example/
     icon:
       typ: mqii
       data: github
       color: black
   Links:
   - content: index
-    url: https://home.rdpstudio.top/
+    url: https://example.com/
     icon:
       typ: img
       data: https://cdn.jsdelivr.net/gh/zcmimi/cdn@master/img/avatar_2.webp
@@ -162,7 +162,7 @@ drawer:
       data: telegram
       color: '#bbb'
 search:
-  typ: file #(file|worker|algolia[todo]|)
+  typ: local #(local|worker|)
   file: /pure_data.json
   api: https://blog-search.example.com/
 
@@ -171,10 +171,8 @@ share_menu:
   weibo: True
   qq: True
 
-busuanzi: 
+busuanzi:
   enable: False
 
 highlight:
   theme: github
-
-all_math: False # 全站开启数学支持

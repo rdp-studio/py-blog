@@ -1,7 +1,6 @@
-<script async defer src="{{assets_rt}}mdui/js/mdui.min.js"></script>
-<script async defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"></script>
-{%if math or t_config.all_math%}
-<script async defer src="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.js"></script>
+<script async src="{{assets_rt}}/mdui/js/mdui.min.js"></script>
+<script async src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"></script>
+{%if config.math%}
+<script async src="//cdn.jsdelivr.net/npm/katex/dist/katex.min.js"></script>
 {%endif%}
-<script defer src='{{assets_rt}}bundle.min.js'></script>
-<script defer src='/custom.js'></script>
+<script async src='{{assets_rt}}/bundle.min.js'></script>
