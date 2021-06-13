@@ -31,7 +31,7 @@
     </div>
     {%endif%}
     <div class="mdui-card-content">
-        <div class="md-body" style="font-size: 14px !important">{{i.preview|markdown_math}}</div>
+        <div class="md-body" style="font-size: 14px !important">{{"该文章有密码保护" if i.password else md(i.preview,i.math)}}</div>
     </div>
     <div class="mdui-card-header">
         <img class="mdui-card-header-avatar" src="{{mg(i.avatar,t_config.avatar)}}" alt='avatar'>
