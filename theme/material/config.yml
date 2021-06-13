@@ -1,4 +1,4 @@
-avatar: https://cdn.jsdelivr.net/gh/zcmimi/cdn@master/img/avatar_2.webp
+avatar: /assets/icon/rdplogo.png
 assets_rt: # https://cdn.jsdelivr.net/gh/zcmimi/cdn@master/material/assets
   # 如果有cdn提高assets文件夹的加载速度,请填入地址
   # 否则留空
@@ -39,8 +39,8 @@ appbar:
 
 head_card:
   enable: True
-  img: https://qiantigers.coding.net/p/pic/d/pic/git/raw/master/2020/9/16/20200916213732.jpg
-  logo: https://cdn.jsdelivr.net/gh/zcmimi/cdn@master/img/avatar_2.webp
+  img: /assets/huge_icon/markdown.png
+  logo: /assets/icon/rdplogo.png
   text: material theme for py-blog
   introduction: a theme with material-design
   pages:
