@@ -1,4 +1,4 @@
-avatar: https://cdn.jsdelivr.net/gh/zcmimi/cdn@master/img/avatar_2.webp
+avatar: /assets/icon/rdplogo.png
 assets_rt: # https://cdn.jsdelivr.net/gh/zcmimi/cdn@master/material/assets
   # 如果有cdn提高assets文件夹的加载速度,请填入地址
   # 否则留空
@@ -11,23 +11,23 @@ randomimg:
   suf: webp
   list: # urls
 
-comment: 
-  enable: True
+comment:
+  enable: False
   valine:
     enable: True
-    appid: NLh0fhLRvD8gOWEC3vtOIRx5-gzGzoHsz 
-    appkey: DSwqdjPFKAnO4CFMQypfkcB9
+    appid: NLh0fhL***************-gzGzoHsz
+    appkey: DSwqdjP**********pfkcB9
     placeholder: 说几句嘛qwq
   gitalk:
     enable: True
-    clientID: 054902ee1548e6fe427e
-    clientSecret: b31fac2b407311ca7e6673ab84727ae9562c69ba
+    clientID: 0549**********fe427e
+    clientSecret: b31*********************************2c69ba
     repo: example.github.io
     owner: example
     admin: example
     distractionFreeMode: 'false'
 
-pjax: False # enable pjax
+pjax: True # enable pjax
 
 appbar:
   pages:
@@ -39,8 +39,8 @@ appbar:
 
 head_card:
   enable: True
-  img: https://cdn.jsdelivr.net/gh/zcmimi/cdn@master/img/1.webp
-  logo: https://cdn.jsdelivr.net/gh/zcmimi/cdn@master/img/avatar_2.webp
+  img: /assets/huge_icon/markdown.png
+  logo: /assets/icon/rdplogo.png
   text: material theme for py-blog
   introduction: a theme with material-design
   pages:
@@ -171,7 +171,7 @@ share_menu:
   weibo: True
   qq: True
 
-busuanzi: 
+busuanzi:
   enable: False
 
 highlight:
