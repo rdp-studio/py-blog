@@ -6,6 +6,7 @@ lang: zh-CN
 author: rdpstudio
 theme: material
 article_address: origin # (number|pinyin|origin)
+site_url: https://py-blog-demo.cn.utools.club/
 
 # index
 page_articles: 10

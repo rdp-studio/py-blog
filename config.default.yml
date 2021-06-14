@@ -6,6 +6,7 @@ lang: zh-CN
 author: rdpstudio
 theme: material
 article_address: origin # (number|pinyin|origin)
+site_url: https://py-blog-demo.cn.utools.club/
 
 # index
 page_articles: 10
@@ -24,4 +25,3 @@ repo:
 server: # 本地预览服务器配置
   port: 3399 # 端口
   watch_interval: 2 # 每间隔多少秒重新读取目录
-
